@@ -1,0 +1,174 @@
+*{
+    font-family: Metropolis;
+    padding: 0;
+    margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track { 
+    border-radius: 10px;
+    background-color: transparent
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.562); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.651); 
+  }
+
+
+body{
+    background-color: black;
+}
+
+body .top-section{
+    height: 600px;
+    overflow: hidden;
+}
+
+body .top-section .nav-bar{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body .top-section .nav-bar .nav-icon{
+    height: 45px;
+    float: left;
+}
+
+body .top-section .nav-bar .nav-bar-links{
+    float: right;
+}
+
+body .top-section .nav-bar .nav-bar-links li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+body .top-section .nav-bar .nav-bar-links li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    padding: 18px 16px;
+    font-weight: 450
+}
+
+body .top-section .nav-bar .nav-bar-links li .special{
+    background-color: #f0a225;
+    border-radius: 9.5px;
+    margin: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+body .top-section .nav-bar .nav-bar-links li .inactive{
+    transition: 0.2s ease-in-out;
+}
+
+body .top-section .nav-bar .nav-bar-links li .inactive:hover{
+    color: #b77c1a;
+}
+
+body .top-section .text{
+    color: #fff;
+    margin-top: 190px;
+    margin-left: 100px;
+    margin-right: 760px;
+}
+
+body .top-section .text .heading{
+    color: #fff;
+    font-family: Metropolis;
+    font-size: 52px;
+    font-weight: 560;
+    line-height: 65px;
+}
+
+body .top-section .text .heading .teen{
+    color: #f0a225;
+    font-family: Metropolis;
+    font-size: 52px;
+    font-weight: 560;
+}
+
+body .top-section .text .description{
+    color: rgb(143, 138, 138);
+    font-family: Metropolis;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+section{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -4;
+    margin-left: 800px;
+    height: 600px;
+    overflow: hidden;
+}
+
+section video{
+    float: right;
+    z-index: -900;
+}
+
+body .footer{
+    background-color: #1e1e1e;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+body .footer .rating,.trust{
+    height: 90px;
+} 
+
+body .footer .content{
+    padding: 11px;
+    float: left;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+body .footer .content hr{
+    height: 45px;
+    width: 1px;
+    border: transparent;
+    margin: 45px;
+}
+
+body .footer .content .download .gplay, .apple{
+    height: 3rem;
+    margin-right: 7px;
+}
+
+body .footer .content .download .download-text{
+    color: #fff;
+    font-family: Metropolis;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 19px;
+}
+
+body .footer .content .download .fam{
+    color: #f0a225;
+}
